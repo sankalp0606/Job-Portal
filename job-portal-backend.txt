@@ -1,0 +1,41 @@
+├── job-portal-backend
+│   ├── src
+│   │   ├── main
+│   │   │   ├── java
+│   │   │   │   └── com.example.jobportal
+│   │   │   │       ├── JobPortalBackendApplication.java
+│   │   │   │       ├── config
+│   │   │   │       │   ├── SecurityConfig.java
+│   │   │   │       │   └── SwaggerConfig.java
+│   │   │   │       ├── controller
+│   │   │   │       │   ├── AuthController.java
+│   │   │   │       │   ├── JobController.java
+│   │   │   │       │   └── ApplicationController.java
+│   │   │   │       ├── dto
+│   │   │   │       │   ├── AuthRequest.java
+│   │   │   │       │   ├── AuthResponse.java
+│   │   │   │       │   └── JobDTO.java
+│   │   │   │       ├── entity
+│   │   │   │       │   ├── User.java
+│   │   │   │       │   ├── Job.java
+│   │   │   │       │   └── Application.java
+│   │   │   │       ├── enums
+│   │   │   │       │   └── Role.java
+│   │   │   │       ├── exception
+│   │   │   │       │   └── GlobalExceptionHandler.java
+│   │   │   │       ├── repository
+│   │   │   │       │   ├── UserRepository.java
+│   │   │   │       │   ├── JobRepository.java
+│   │   │   │       │   └── ApplicationRepository.java
+│   │   │   │       ├── security
+│   │   │   │       │   ├── JwtTokenProvider.java
+│   │   │   │       │   ├── JwtAuthenticationFilter.java
+│   │   │   │       │   └── CustomUserDetailsService.java
+│   │   │   │       └── service
+│   │   │   │           ├── AuthService.java
+│   │   │   │           ├── JobService.java
+│   │   │   │           └── ApplicationService.java
+│   │   └── resources
+│   │       ├── application.properties
+│   │       └── data.sql
+│   └── pom.xml
